@@ -1,3 +1,4 @@
+import { evaluate } from 'mathjs';
 import React, {useState} from 'react'
 const Calculator= ()=>{
     const [data, setData]= useState("");
@@ -6,7 +7,7 @@ const Calculator= ()=>{
         setData(data.concat(Event.target.value))
     }
     const result= ()=>{
-        setData(eval(data))
+        setData(evaluate(data))
     }
     const clear= ()=>{
         let clearNum= '';

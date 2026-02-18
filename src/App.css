@@ -5,27 +5,28 @@
 body{
   height: 100vh;
   background-color: darkcyan;
-  display: grid;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 .boxOfTheCalc{
-  height: 600px;
-  width: 900px;
+  height: 70vh;
+  width: 60vw;
   background-color: cyan;
   border-radius: 20px;
   box-shadow: 8px 20px 30px 0px #000;
 }
 .display{
-  height: 150px;
+  height: 15vh;
   width: 100wh;
   background-color: gray;
   border-radius: 20px;
   margin: 2px;
+  padding-right: 10px;
 }
 .display input{
-  height: 145px;
-  width: 100wh;
+  height: 14vh;
+  width: 100%;
   background-color: gray;
   border-radius: 20px;
   margin: 2px;
@@ -34,17 +35,22 @@ body{
   color: #fff;
 }
 .all-keys{
-  height: 446px;
-  width: 100wh;
+  /* height: 446px;
+  width: 100wh; */
+  height: 50vh;
+  width: 100%;
   margin: 2px;
   border-radius: 20px;
 }
 .keys-box{
   display: flex;
+  padding-right: 4px;
 }
 .keys{
-  width: 220px;
-  height: 107.5px;
+  /* width: 220px;
+  height: 107.5px; */
+  width: 15vw;
+  height: 13vh;
   background-color: darkcyan;
   border: 0px solid darkcyan;
   border-radius: 20px;
@@ -53,7 +59,7 @@ body{
   align-items: center;
   justify-content: center;
   color: cyan;
-  font-size: 50px;
+  font-size: 2rem;
 }
 .keys:hover{
   transform: translateY(-2px);
