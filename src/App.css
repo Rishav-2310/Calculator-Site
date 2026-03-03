@@ -33,6 +33,7 @@ body{
   border: none;
   font-size: 2rem;
   color: #fff;
+  text-align: right;
 }
 .all-keys{
   /* height: 446px;
